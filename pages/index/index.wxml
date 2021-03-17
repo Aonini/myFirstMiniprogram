@@ -18,6 +18,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">真机调试测试</text>
   </view>
 </view>
