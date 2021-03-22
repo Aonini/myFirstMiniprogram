@@ -9,7 +9,7 @@
     </block>
     <block wx:elif="{{hasUserInfo}}">
       
-      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 测试用微信小程序开发工具提交代码 </button>
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 14:28测试github </button>
       <button wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
       <view wx:else>小白测试git </view>
     </block>
