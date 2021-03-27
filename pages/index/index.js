@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '测试微信小程序提交git',
+    motto: '本子测试Git提交',
     userInfo: {},
     hasUserInfo: true,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
