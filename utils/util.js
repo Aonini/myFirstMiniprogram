@@ -1,3 +1,4 @@
+// 一些公用方法的封装
 const formatTime = date => {
   const year = date.getFullYear()
   const month = date.getMonth() + 1

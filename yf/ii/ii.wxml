@@ -1,0 +1,4 @@
+<!--yf/ii/ii.wxml-->
+<view>
+  <button class="mini-btn" type="warn" size="mini"  bindtap="goshoping">点击跳转到shop页面</button>
+</view>

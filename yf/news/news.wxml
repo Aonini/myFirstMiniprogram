@@ -1,0 +1,19 @@
+<!-- yf/news/news.wxml -->
+<view>
+    <text class="box">{{msg}}</text>
+    <text class="box">{{obj.name}}</text>
+    <view wx:if="{{show}}">我是判断内容</view>
+    <text data-title="{{datas}}">绑定属性的都dom节点</text>
+    <view class="list">
+        <view class="item" wx:for="{{arr}}">{{item}}======{{index}}</view>
+    </view>
+    <view wx:for="{{list2}}">
+        <text class="title">{{ item.title}}</text>
+        <view wx:for="{{item.list}}">========{{item.name}}</view>
+    </view>
+    <view wx:for="{{list2}}" wx:for-item="carTitle">
+        <text class="title">{{ carTitle.title}}</text>
+        <view wx:for="{{carTitle.list}}" 
+        wx:for-item="car">========{{car.name}}</view>
+    </view>
+</view>

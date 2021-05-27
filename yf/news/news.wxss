@@ -1,0 +1,30 @@
+/* yf/news/news.wxss */
+.box{
+    background: red;
+    height: 40px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.list{
+    height: 100px;
+    width:100%;
+    background: pink;
+}
+.list .item{
+    height: 25%;
+    width: 100%;
+    background: greenyellow;
+}
+.list .item:nth-of-type(odd){
+    background: green;
+}
+
+.title{
+    text-align: center;
+    color: pink;
+    display: block;
+    background: black;
+}
+

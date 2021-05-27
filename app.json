@@ -1,13 +1,32 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "yf/shop/shop",
+    "yf/news/news",
+    "yf/ii/ii"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#BADCFD",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [{
+        "pagePath": "yf/news/news",
+        "text": "新闻页面",
+        "iconPath": "./static/img/home1.png",
+        "selectedIconPath": "./static/img/home2.png"
+      },
+      {
+        "pagePath": "yf/ii/ii",
+        "text": "ii页面",
+        "iconPath": "./static/img/home1.png",
+        "selectedIconPath": "./static/img/home2.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
