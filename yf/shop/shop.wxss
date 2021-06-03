@@ -1,1 +1,5 @@
 /* yf/shop/shop.wxss */
+.bg{
+    background: red;
+    font-size: 200px;
+}

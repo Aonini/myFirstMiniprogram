@@ -1,0 +1,12 @@
+/* yf/footDetile/footDetile.wxss */
+
+image{
+    width: 100%;
+    height: 400rpx;
+}
+.info{
+    font-size: 24rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+    display: block;
+}

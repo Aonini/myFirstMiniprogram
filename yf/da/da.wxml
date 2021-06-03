@@ -1,0 +1,13 @@
+<!-- yf/da/da.wxml -->
+<view class="content">
+    <view class="list" wx:for="{{cp}}">
+        <view class="title">{{item.title}}</view>
+        <view class="item" wx:for-item="cpItem" wx:for="{{item.list}}" data-itemid="{{cpItem._id}}" bindtap="footclick">
+            <view class="itempic">
+                <image src="{{host}}{{ cpItem.img_url}}" />
+            </view>
+            <text>菜名：{{cpItem.title}}</text>
+            <view class="br"></view>
+        </view>
+    </view>
+</view>

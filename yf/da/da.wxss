@@ -1,0 +1,36 @@
+/* yf/da/da.wxss */
+.content {
+    background: #F3F3F3;
+}
+
+.list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24rpx;
+}
+
+.list .title {
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 32rpx;
+    color:   #0AE815;
+
+}
+
+.list .item {
+    width: 33.3%;
+    height: 260rpx;
+}
+
+.list .item .itempic {
+    width: 100%;
+}
+
+.list .item .itempic image {
+    height: 160rpx;
+    width: 90%;
+    margin: 0 auto;
+}

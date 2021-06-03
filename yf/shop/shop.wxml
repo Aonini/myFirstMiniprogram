@@ -1,1 +1,6 @@
-<text>我是买东西的页面呀</text>
+<!-- <view>
+<image  src="{{srcs}}">
+<button  type="default"   data-aid="11"  size="mini" bindtap="toRouter" >按钮去到测试路由页面</button>
+    <view class="br"></view>
+<button size="mini">测br</button>
+</view> -->

@@ -1,0 +1,7 @@
+<view>
+    <import src="../../wxParse/wxParse.wxml" />
+    <image src="{{host}}{{info.imgsrc}}" />
+    <text>价格：{{info.q}}</text>
+    <view class="br"></view>
+    <view class="info">详情：<template is="wxParse" data="{{wxParseData:oo.nodes}}" /></view>
+</view>
